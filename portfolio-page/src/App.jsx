@@ -1,14 +1,13 @@
-import { useLanguage } from "./context/languageContext";
-
+import Hero from "./components/Hero";
+import "./App.css";
+import Mode from "./components/Mode";
+import Nav from "./components/Nav";
 const App = () => {
-  const { toggleLanguage, getTexts } = useLanguage();
-  const texts = getTexts();
-
   return (
     <div>
-      <button onClick={toggleLanguage}>{texts.buttonText}</button>
-
-      <p>{texts.deneme}</p>
+      <Mode />
+      <Nav />
+      <Hero />
     </div>
   );
 };

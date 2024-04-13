@@ -1,0 +1,78 @@
+/* MODE SECTION*/
+.modeSection{
+    padding-top: 2rem;
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+/* NAV SECTION*/
+.navSection{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+.navbar{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    color: #6B7280;
+    min-height: 60px;
+}
+.circle{
+    background-color: #EEEBFF;
+    border-radius: 50%;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle p{
+    color: #7B61FF;
+    transform: rotate(45deg);
+font-weight: 600;
+font-size:large;
+}
+.hireMe{
+    border: 1px solid #3730A3;
+    color: #3730A3;
+    border-radius: 6px;
+    padding: 7px 22px;
+}
+/* HERO SECTION */
+.heroSection{
+    padding: 2rem 0;
+    max-width: 80%;
+    margin: auto;
+}
+.heroNameContainer{
+    display: flex;
+}
+.heroName{
+    width: 6rem;
+    text-align: center;
+    border-bottom: 1px solid #3730A3;
+    margin: 10px 10px 20px; 
+}
+.heroNameContainer span{
+    color: #4338CA;
+    font-weight: 500;
+}
+.heroContainer{
+    display: flex;
+}
+.heroTexts h3{
+    color: #1F2937;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+    margin: 2rem 0;
+}
+.heroImg{
+    width: 476px;
+    height: 300px;
+    border-radius: 18px;
+}

@@ -1,6 +1,9 @@
 export const texts = {
   turkish: {
-    buttonText: "Türkçeye geç",
+    languageButton: "SWITCH TO ENGLISH",
+    darkTheme: "KARANLIK TEMA",
+    lightTheme: "AYDINLIK TEMA",
+    hireMe: "Bana ulaş",
     hero1: "Ben bir Frontend Geliştiriciyim",
     hero2:
       "... ve sağlam ve ölçeklenebilir ön uç ürünlerini harika kullanıcı deneyimleriyle şekillendirmeyi seven biriyim.",
@@ -19,10 +22,13 @@ export const texts = {
       "Sorunuz veya teklifiniz mi var, yoksa sadece merhaba mı demek istiyorsunuz? Cesur olun.",
   },
   english: {
-    buttonText: "Switch to English",
-    hero1: "I am a Frontend Developer",
+    languageButton: "TÜRKÇE'YE GEÇ",
+    darkTheme: "DARK MODE",
+    lightTheme: "LIGHT MODE",
+    hireMe: "Hire me",
+    hero1: "Creative thinker Minimalism lover",
     hero2:
-      "...who likes to craft solid and scalable frontend products with great user experiences.",
+      "Hi, I’m Almila. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
     skills: "Skills",
     profile: "Profile",
     basicinfo: "Basic Information",
