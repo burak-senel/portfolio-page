@@ -1,5 +1,6 @@
-import Hero from "./components/Hero";
 import "./App.css";
+import Hero from "./components/Hero";
+
 import Mode from "./components/Mode";
 import Nav from "./components/Nav";
 import Skills from "./components/Skills";
