@@ -11,7 +11,7 @@ function Hero() {
       </div>
       <div className="heroContainer">
         <div className="heroTexts">
-          <h3>{texts.hero1}</h3>
+          <h1>{texts.hero1}</h1>
           <p className=" text-[#6B7280] font-light">{texts.hero2}</p>
           <div className="heroButtons">
             <button className=" font-light  text-white bg-[#3730A3] rounded-md px-6 py-2.5 mr-3">

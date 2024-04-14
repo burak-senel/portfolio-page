@@ -49,7 +49,7 @@ font-size:large;
     width: 6rem;
     text-align: center;
     border-bottom: 1px solid #3730A3;
-    margin: 10px 10px 20px; 
+    margin: 12px 10px 20px; 
 }
 .heroNameContainer span{
     color: #4338CA;
@@ -58,7 +58,7 @@ font-size:large;
 .heroContainer{
     display: flex;
 }
-.heroTexts h3{
+.heroTexts h1{
     color: #1F2937;
     font-size: 72px;
     font-weight: 700;
@@ -74,3 +74,70 @@ font-size:large;
     border-radius: 18px;
     margin-left: 9rem;
     ;}
+/* SKILLS SECTION */
+.skillsSection{
+    padding-top: 2rem;
+    max-width: 80%;
+    margin: auto;
+    border-bottom: 1px solid #BAB2E7
+    ;
+}
+.skillsSection h2{
+    color: #1F2937;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.skillsSection img {
+    max-width: 150px;
+    height: 6rem;
+    padding: 0 20px;
+  }
+  
+  .skillsSection img:last-of-type {
+    padding-left: 0;
+  }
+  
+  .inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 6rem;
+    margin-bottom: 3rem;
+
+  }
+  
+  .wrapper {
+    position: absolute;
+    display: flex;
+    
+  }
+  
+  .skillsSection section {
+    display: flex;
+    animation: swipe var(--speed) linear infinite backwards;
+  }
+  
+  @keyframes swipe {
+    0% {
+      transform: translate(0);
+    }
+  
+    100% {
+      transform: translate(-100%);
+    }
+  }
+  /* PROFILE SECTION */
+  .profileSection{
+    padding: 2rem 0;
+    max-width: 80%;
+    margin: auto;
+    border-bottom: 1px solid #BAB2E7
+    ;
+}
+.profileSection h2{
+    color: #1F2937;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
