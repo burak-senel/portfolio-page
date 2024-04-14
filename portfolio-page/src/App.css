@@ -36,12 +36,6 @@
 font-weight: 600;
 font-size:large;
 }
-.hireMe{
-    border: 1px solid #3730A3;
-    color: #3730A3;
-    border-radius: 6px;
-    padding: 7px 22px;
-}
 /* HERO SECTION */
 .heroSection{
     padding: 2rem 0;
@@ -69,10 +63,14 @@ font-size:large;
     font-size: 72px;
     font-weight: 700;
     line-height: 72px;
-    margin: 2rem 0;
+    margin: 2rem auto;
+}
+.heroButtons{
+    margin: 2rem auto;
 }
 .heroImg{
-    width: 476px;
-    height: 300px;
+    max-width: 40%;
+    height: 40%;
     border-radius: 18px;
-}
+    margin-left: 9rem;
+    ;}

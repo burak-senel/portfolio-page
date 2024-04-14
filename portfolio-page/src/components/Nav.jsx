@@ -12,7 +12,7 @@ function Nav() {
       <nav className="navbar">
         <p>{texts.skills}</p>
         <p>{texts.projects}</p>
-        <p className="hireMe">{texts.hireMe}</p>
+        <p className=" text-[#3730A3] border-[#3730A3] border rounded-md px-5 py-2">{texts.hireMe}</p>
       </nav>
     </section>
   );
