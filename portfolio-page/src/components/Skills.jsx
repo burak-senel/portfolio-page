@@ -1,5 +1,5 @@
 import React from "react";
-import { images } from "../../images";
+import { images } from "../data/images";
 import BannerLogo from "./BannerLogo";
 import { useLanguage } from "../context/languageContext";
 function Skills() {

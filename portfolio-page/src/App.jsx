@@ -5,6 +5,8 @@ import Mode from "./components/Mode";
 import Nav from "./components/Nav";
 import Skills from "./components/Skills";
 import Profile from "./components/Profile";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 const App = () => {
   return (
     <div>
@@ -13,6 +15,8 @@ const App = () => {
       <Hero />
       <Skills />
       <Profile />
+      <Projects />
+      <Footer />
     </div>
   );
 };

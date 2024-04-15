@@ -134,10 +134,76 @@ font-size:large;
     margin: auto;
     border-bottom: 1px solid #BAB2E7
     ;
+    
 }
 .profileSection h2{
     color: #1F2937;
     font-size: 48px;
     font-weight: 600;
     margin-bottom: 1rem;
+}
+.profileSection h3{
+    color: #4338CA
+    ;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.profileContainer{
+    display: flex;
+    gap: 10em;
+    
+}
+
+.aboutme{
+    width: 35rem;
+
+}
+.profileLeft{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 36px;
+    margin-right: auto;
+    width: 10rem;
+}
+.profileRight{
+    font-weight: 400;
+    line-height: 36px;
+    width: 25rem;
+}
+.profileInfos{
+display: flex;
+}
+/* PROJECTS SECTION */
+.projectsSection{
+    padding-top: 2rem;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+.projectsSection h2{
+    color: #1F2937;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.projectsSection h3{
+    color: #4338CA
+    ;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.cardImage{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+/* FOOTER SECTION */
+.footerSection{
+    padding-top: 2rem;
+    max-width: 80%;
+    margin: auto;
+    padding: 15vh;
+    background-color: #F9F9F9;
 }
