@@ -6,13 +6,15 @@ function Hero() {
   return (
     <section className="heroSection dark:bg-[#262229]">
       <div className="heroNameContainer">
-        <p className="heroName"></p>
-        <span>Burak Şenel</span>
+        <p className="heroName dark:border-[#B7AAFF]"></p>
+        <span className="dark:text-[#B7AAFF]">Burak Şenel</span>
       </div>
-      <div className="heroContainer">
-        <div className="heroTexts">
-          <h1>{texts.hero1}</h1>
-          <p className=" text-[#6B7280] font-light">{texts.hero2}</p>
+      <div className="heroContainer  flex-row xl:flex">
+        <div className="heroTexts ">
+          <h1 className="dark:text-[#AEBCCF]">{texts.hero1}</h1>
+          <p className=" text-[#6B7280] font-light dark:text-white">
+            {texts.hero2}
+          </p>
           <div className="heroButtons">
             <a href="mailto:buurak.senel@gmail.com">
               <button className=" font-light  text-white bg-[#3730A3] dark:bg-[#E1E1FF] dark:text-black rounded-md px-6 py-2 mr-3 transition duration-300 ease-in-out hover:bg-white  hover:text-[#3730A3]">

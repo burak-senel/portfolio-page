@@ -56,7 +56,6 @@ font-size:large;
     font-weight: 500;
 }
 .heroContainer{
-    display: flex;
 }
 .heroTexts h1{
     color: #1F2937;
@@ -69,10 +68,11 @@ font-size:large;
     margin: 2rem auto;
 }
 .heroImg{
-    max-width: 40%;
-    height: 40%;
+    max-width: 476;
+    max-height: 375px;
     border-radius: 18px;
     margin-left: 9rem;
+    margin-top: 0;
     ;}
 /* SKILLS SECTION */
 .skillsSection{
@@ -201,10 +201,6 @@ display: flex;
 }
 
 /* FOOTER SECTION */
-.footerSection{
-    padding-top: 2rem;
-    max-width: 80%;
-    margin: auto;
-    padding: 15vh;
-    background-color: #F9F9F9;
+.footerSection {
+  @apply bg-[#F9F9F9] pt-8 p-[15vh];
 }

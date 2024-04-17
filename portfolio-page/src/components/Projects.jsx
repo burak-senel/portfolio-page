@@ -7,7 +7,7 @@ function Projects() {
   const texts = getTexts();
   return (
     <section id="projects" className="projectsSection">
-      <h2>{texts.projects}</h2>
+      <h2 className="dark:text-[#AEBCCF]">{texts.projects}</h2>
       <div className="flex justify-between flex-wrap">
         {projectData.map((cardData, index) => (
           <Project key={index} data={cardData} />

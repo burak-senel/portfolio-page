@@ -9,7 +9,7 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 const App = () => {
   return (
-    <div>
+    <div className=" dark:bg-[#262229]">
       <Mode />
       <Nav />
       <Hero />

@@ -13,18 +13,26 @@ function Nav() {
   };
   return (
     <section className="navSection">
-      <div className="circle">
-        <p>B</p>
+      <div className="circle dark:bg-[#4731D3]">
+        <p className="dark:text-[#8F88FF]">B</p>
       </div>
       <nav className="navbar">
-        <a href="#" onClick={() => scrollToSection("skills")}>
+        <a
+          className="dark:text-[#7f8692]"
+          href="#"
+          onClick={() => scrollToSection("skills")}
+        >
           {texts.skills}
         </a>
-        <a href="#" onClick={() => scrollToSection("projects")}>
+        <a
+          className="dark:text-[#7f8692]"
+          href="#"
+          onClick={() => scrollToSection("projects")}
+        >
           {texts.projects}
         </a>
         <a href="mailto:buurak.senel@gmail.com">
-          <button className=" text-[#3730A3] border-[#3730A3] border rounded-md px-5 py-2">
+          <button className=" text-[#3730A3] border-[#3730A3] border rounded-md px-5 py-2 dark:bg-white">
             {texts.hireMe}
           </button>
         </a>
