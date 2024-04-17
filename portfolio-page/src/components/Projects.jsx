@@ -6,7 +6,7 @@ function Projects() {
   const { getTexts } = useLanguage();
   const texts = getTexts();
   return (
-    <section className="projectsSection">
+    <section id="projects" className="projectsSection">
       <h2>{texts.projects}</h2>
       <div className="flex justify-between flex-wrap">
         {projectData.map((cardData, index) => (

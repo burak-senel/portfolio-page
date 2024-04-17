@@ -6,7 +6,7 @@ function Skills() {
   const { getTexts } = useLanguage();
   const texts = getTexts();
   return (
-    <section className="skillsSection">
+    <section id="skills" className="skillsSection">
       <div>
         <h2>{texts.skills}</h2>
         <BannerLogo images={images} speed={15000} />

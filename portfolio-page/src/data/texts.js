@@ -1,7 +1,7 @@
 export const texts = {
   turkish: {
     personalblog: "Kişisel Blog",
-    languageButton: "SWITCH TO ENGLISH",
+    languageButton: "ENGLISH",
     darkTheme: "KARANLIK TEMA",
     lightTheme: "AYDINLIK TEMA",
     hireMe: "Bana ulaş",
@@ -32,7 +32,7 @@ export const texts = {
   },
   english: {
     personalblog: "Personal Blog",
-    languageButton: "TÜRKÇE'YE GEÇ",
+    languageButton: "TÜRKÇE",
     darkTheme: "DARK MODE",
     lightTheme: "LIGHT MODE",
     hireMe: "Hire me",

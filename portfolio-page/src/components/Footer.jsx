@@ -5,7 +5,7 @@ function Footer() {
   const { getTexts } = useLanguage();
   const texts = getTexts();
   return (
-    <section className="flex flex-col footerSection">
+    <section id="footer" className="flex flex-col footerSection">
       <h4 className="font-medium text-4xl leading-tight mb-12 w-6/12">
         {texts.footer}
       </h4>
