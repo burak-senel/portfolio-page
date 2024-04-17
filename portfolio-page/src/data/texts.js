@@ -28,6 +28,7 @@ export const texts = {
     footer: "Hadi projende birlikte çalışalım.",
     aboutmeinfo:
       "Lisede bilişim bölümünden mezun olduktan sonra üniversitede gördüğüm programlama dersleriyle birlikte bilgilerimi pekiştirdim. 2.5 yıllık kurumsal tecrübe edindikten sonra yazılım alanında ilerlemek için Workintech ile 960 saatlik bootcampi bitirerek Frontend tarafında ilerlemeye karar verdim.",
+    project1: "Acıktın mı? Bu siteden pizza sipariş verebilirsin",
   },
   english: {
     personalblog: "Personal Blog",
@@ -58,5 +59,8 @@ export const texts = {
     footer: "Let’s work together on your next product.",
     aboutmeinfo:
       "After graduating from the computer science department in high school, I solidified my knowledge with programming courses I took in university. After gaining 2.5 years of corporate experience, I decided to advance in the field of software development by completing a 960-hour bootcamp with Workintech, focusing on the frontend.",
+    project1: "Do you hungry? You can order pizza from this site.",
+    project2: "",
+    project3: "",
   },
 };

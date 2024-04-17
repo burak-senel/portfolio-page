@@ -8,7 +8,7 @@ function Projects() {
   return (
     <section className="projectsSection">
       <h2>{texts.projects}</h2>
-      <div className="flex place-content-between">
+      <div className="flex justify-between flex-wrap">
         {projectData.map((cardData, index) => (
           <Project key={index} data={cardData} />
         ))}
