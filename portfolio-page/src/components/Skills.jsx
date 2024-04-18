@@ -8,7 +8,7 @@ function Skills() {
   return (
     <section id="skills" className="skillsSection">
       <div>
-        <h2 className="dark:text-white">{texts.skills}</h2>
+        <h2 className="dark:text-[#AEBCCF]">{texts.skills}</h2>
         <BannerLogo images={images} speed={15000} />
       </div>
     </section>

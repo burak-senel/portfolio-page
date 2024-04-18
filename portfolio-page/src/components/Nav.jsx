@@ -32,7 +32,7 @@ function Nav() {
           {texts.projects}
         </a>
         <a href="mailto:buurak.senel@gmail.com">
-          <button className=" text-[#3730A3] border-[#3730A3] border rounded-md px-5 py-2 dark:bg-white">
+          <button className=" text-[#3730A3] border-[#3730A3] border rounded-md px-5 py-2 dark:bg-white transition duration-300 ease-in-out hover:bg-[#3730A3] hover:text-white dark:hover:bg-[#3730A3] dark:hover:text-white dark:hover:border-[#7f8692]">
             {texts.hireMe}
           </button>
         </a>

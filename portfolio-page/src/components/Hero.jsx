@@ -17,12 +17,12 @@ function Hero() {
           </p>
           <div className="heroButtons">
             <a href="mailto:buurak.senel@gmail.com">
-              <button className=" font-light  text-white bg-[#3730A3] dark:bg-[#E1E1FF] dark:text-black rounded-md px-6 py-2 mr-3 transition duration-300 ease-in-out hover:bg-white  hover:text-[#3730A3]">
+              <button className=" font-light  text-white bg-[#3730A3] dark:bg-[#E1E1FF] dark:text-black rounded-md px-6 py-2 mr-3 transition duration-300 ease-in-out hover:bg-white  hover:text-[#3730A3] dark:hover:bg-white">
                 {texts.hireMe}
               </button>
             </a>
             <a href="https://github.com/burak-senel" target="_blank">
-              <button className="dark:text-[#E1E1FF] dark:bg-[#383838] dark:border-[#E1E1FF] text-[#3730A3] border-[#3730A3] border rounded-md px-5 py-2 mr-3	transition duration-300 ease-in-out hover:bg-[#3730A3] hover:text-white">
+              <button className="dark:text-[#E1E1FF] dark:bg-[#383838] dark:border-[#E1E1FF] text-[#3730A3] border-[#3730A3] border rounded-md px-5 py-2 mr-3	transition duration-300 ease-in-out hover:bg-[#3730A3] hover:text-white dark:hover:bg-white dark:hover:text-[#3730A3]">
                 <i className="fa fa-github"></i> Github
               </button>
             </a>
@@ -30,7 +30,7 @@ function Hero() {
               href="https://www.linkedin.com/in/burak-%C5%9Fenel/"
               target="_blank"
             >
-              <button className="dark:text-[#E1E1FF] dark:bg-[#383838] dark:border-[#E1E1FF] text-[#3730A3] border-[#3730A3] border rounded-md px-4 py-2 mr-3 transition duration-300 ease-in-out hover:bg-[#3730A3] hover:text-white">
+              <button className="dark:text-[#E1E1FF] dark:bg-[#383838] dark:border-[#E1E1FF] text-[#3730A3] border-[#3730A3] border rounded-md px-4 py-2 mr-3 transition duration-300 ease-in-out hover:bg-[#3730A3] hover:text-white dark:hover:bg-white dark:hover:text-[#3730A3]">
                 <i className="fa fa-linkedin"></i> Linkedin
               </button>
             </a>
