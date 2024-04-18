@@ -35,7 +35,7 @@ function Project({ data }) {
           target="_blank"
           className="text-[#3730A3] underline dark:text-[#E1E1FF]"
         >
-          View Site
+          {texts.viewsite}
         </a>
       </div>
     </div>

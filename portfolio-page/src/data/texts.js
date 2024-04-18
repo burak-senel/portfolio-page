@@ -31,6 +31,7 @@ export const texts = {
     project1: "Acıktın mı? Bu siteden pizza sipariş verebilirsin",
     darkmodetoastify: "Tema değiştirildi!",
     languagetoastify: "The site is now in English!",
+    
   },
   english: {
     personalblog: "Personal Blog",
