@@ -29,7 +29,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
+   
+        
+    }
+ 
 .circle p{
     color: #7B61FF;
     transform: rotate(45deg);
@@ -42,6 +45,7 @@ font-size:large;
     max-width: 80%;
     margin: auto;
 }
+
 .heroNameContainer{
     display: flex;
 }
@@ -54,8 +58,6 @@ font-size:large;
 .heroNameContainer span{
     color: #4338CA;
     font-weight: 500;
-}
-.heroContainer{
 }
 .heroTexts h1{
     color: #1F2937;
@@ -71,7 +73,6 @@ font-size:large;
     max-width: 476;
     max-height: 375px;
     border-radius: 18px;
-    margin-left: 9rem;
     margin-top: 0;
     ;}
 /* SKILLS SECTION */

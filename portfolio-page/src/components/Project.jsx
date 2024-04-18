@@ -22,7 +22,7 @@ function Project({ data }) {
           {data.usetech3}
         </li>
       </div>
-      <div className="flex place-content-between">
+      <div className="flex place-content-between sm:justify-start sm:gap-8">
         <a
           href={data.projectgithublink}
           target="_blank"

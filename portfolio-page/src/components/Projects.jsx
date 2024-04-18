@@ -8,7 +8,7 @@ function Projects() {
   return (
     <section id="projects" className="projectsSection">
       <h2 className="dark:text-[#AEBCCF]">{texts.projects}</h2>
-      <div className="flex justify-between flex-wrap">
+      <div className="flex justify-between lg:flex-row sm:flex-col">
         {projectData.map((cardData, index) => (
           <Project key={index} data={cardData} />
         ))}

@@ -29,6 +29,8 @@ export const texts = {
     aboutmeinfo:
       "Lisede bilişim bölümünden mezun olduktan sonra üniversitede gördüğüm programlama dersleriyle birlikte bilgilerimi pekiştirdim. 2.5 yıllık kurumsal tecrübe edindikten sonra yazılım alanında ilerlemek için Workintech ile 960 saatlik bootcampi bitirerek Frontend tarafında ilerlemeye karar verdim.",
     project1: "Acıktın mı? Bu siteden pizza sipariş verebilirsin",
+    darkmodetoastify: "Tema değiştirildi!",
+    languagetoastify: "The site is now in English!",
   },
   english: {
     personalblog: "Personal Blog",
@@ -62,5 +64,7 @@ export const texts = {
     project1: "Do you hungry? You can order pizza from this site.",
     project2: "",
     project3: "",
+    darkmodetoastify: "Theme changed!",
+    languagetoastify: "Site şu an Türkçe!",
   },
 };

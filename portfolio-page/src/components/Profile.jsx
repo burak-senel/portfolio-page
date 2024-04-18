@@ -7,7 +7,7 @@ function Profile() {
   return (
     <section className="profileSection">
       <h2 className="dark:text-[#AEBCCF]">{texts.profile}</h2>
-      <div className="profileContainer">
+      <div className="profileContainer lg:flex-row sm:flex-col">
         <div className="profile">
           <h3 className="dark:text-[#B7AAFF]">{texts.profile}</h3>
           <div className="flex flex-col justify-between">

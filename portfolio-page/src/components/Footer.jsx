@@ -9,10 +9,10 @@ function Footer() {
       id="footer"
       className="flex flex-col bg-[#F9F9F9] p-[15vh] dark:bg-[#151515]"
     >
-      <h4 className="font-medium text-4xl leading-tight mb-12 w-6/12 dark:text-[#AEBCCF]">
+      <h4 className="font-medium text-4xl leading-tight mb-12 w-8/12 dark:text-[#AEBCCF] ">
         {texts.footer}
       </h4>
-      <div className="flex justify-between">
+      <div className="flex justify-between lg:flex-row sm:flex-col sm:gap-8">
         <div className="flex">
           <span>👉</span>{" "}
           <a

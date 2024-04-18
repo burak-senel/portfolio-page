@@ -9,7 +9,7 @@ function Hero() {
         <p className="heroName dark:border-[#B7AAFF]"></p>
         <span className="dark:text-[#B7AAFF]">Burak Şenel</span>
       </div>
-      <div className="heroContainer  flex-row xl:flex">
+      <div className="lg:flex lg:flex-row sm:flex-col">
         <div className="heroTexts ">
           <h1 className="dark:text-[#AEBCCF]">{texts.hero1}</h1>
           <p className=" text-[#6B7280] font-light dark:text-white">
