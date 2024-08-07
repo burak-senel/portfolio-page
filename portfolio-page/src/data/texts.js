@@ -5,7 +5,7 @@ export const texts = {
     darkTheme: "KARANLIK TEMA",
     lightTheme: "AYDINLIK TEMA",
     hireMe: "Bana ulaş",
-    hero1: "Ben bir Frontend Geliştiriciyim",
+    hero1: "Ben bir full-stack geliştiriciyim",
     hero2:
       "... ve sağlam ve ölçeklenebilir ön uç ürünlerini harika kullanıcı deneyimleriyle şekillendirmeyi seven biriyim.",
     skills: "Yetenekler",
@@ -29,9 +29,10 @@ export const texts = {
     aboutmeinfo:
       "Lisede bilişim bölümünden mezun olduktan sonra üniversitede gördüğüm programlama dersleriyle birlikte bilgilerimi pekiştirdim. 2.5 yıllık kurumsal tecrübe edindikten sonra yazılım alanında ilerlemek için Workintech ile 960 saatlik bootcampi bitirerek Frontend tarafında ilerlemeye karar verdim.",
     project1: "Acıktın mı? Bu siteden pizza sipariş verebilirsin",
+    project2: "sd mı? Bu siteden sdfsdf sipariş verebilirsin",
+    project3: "Acıktın mı? Bu siteden pizza sipariş verebilirsin",
     darkmodetoastify: "Tema değiştirildi!",
     languagetoastify: "The site is now in English!",
-    
   },
   english: {
     personalblog: "Personal Blog",
@@ -39,9 +40,9 @@ export const texts = {
     darkTheme: "DARK MODE",
     lightTheme: "LIGHT MODE",
     hireMe: "Hire me",
-    hero1: "Creative thinker Minimalism lover",
+    hero1: "I'm a full-stack developer.",
     hero2:
-      "Hi, I’m Almila. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
+      "Hi, I’m Burak. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s meet with me.",
     skills: "Skills",
     profile: "Profile",
     basicinfo: "Basic Information",

@@ -10,7 +10,7 @@ export const useLanguage = () => {
 export const LanguageProvider = ({ children }) => {
   const detectBrowserLanguage = () => {
     const userLanguage = navigator.language || navigator.userLanguage;
-    return userLanguage.startsWith("tr") ? "turkish" : "english";
+    return userLanguage.startsWith("en") ? "turkish" : "english";
   };
 
   const [language, setLanguage] = useState(

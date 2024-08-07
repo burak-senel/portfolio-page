@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/pizza.png";
-import project2 from "../assets/projects/project2.png";
-import project3 from "../assets/projects/project3.png";
+import ecommerce from "../assets/projects/ecommerce.png";
+import library from "../assets/projects/library.jpg";
 export const projectData = [
   {
     image: project1,
@@ -13,23 +13,20 @@ export const projectData = [
     projectsitelink: "https://pizza-challenge-psi.vercel.app/",
   },
   {
-    image: project1,
-    title: "hahaha",
+    image: library,
+    title: "Library Management System",
     description: "gfdgdfhdfbfdvsaas",
-    usetech: "react",
-    usetech2: "redux",
-    usetech3: "axios",
-    projectgithublink: "https://google.com",
-    projectsitelink: "sdfsdf.com",
+    usetech: "pure java",
+    projectgithublink: "https://github.com/burak-senel/Java-LibraryManagement",
   },
   {
-    image: project1,
-    title: "cacacaca",
+    image: ecommerce,
+    title: "E-commerce",
     description: "dedededededsadasd",
     usetech: "react",
-    usetech2: "redux",
-    usetech3: "axios",
-    projectgithublink: "https://google.com",
-    projectsitelink: "sdfsdf.com",
+    usetech2: "spring",
+    usetech3: "postgres",
+    projectgithublink: "https://github.com/burak-senel/e-commerce",
+    projectsitelink: "https://e-commerce-three-liard.vercel.app/",
   },
 ];
