@@ -6,7 +6,7 @@ export const ModeProvider = ({ children }) => {
   const [isDarkMode, setIsDarkMode] = useState(() => {
     // Uygulama ilk yüklendiğinde dark mode durumunu local storage'dan al
     const savedMode = localStorage.getItem("darkMode");
-    return savedMode ? JSON.parse(savedMode) : true;
+    return savedMode ? JSON.parse(savedMode) : false;
   });
 
   const toggleDarkMode = () => {
