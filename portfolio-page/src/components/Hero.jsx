@@ -1,5 +1,5 @@
 import { useLanguage } from "../context/languageContext";
-import Header from "../assets/header.png";
+import photo from "../assets/fotodeneme.png";
 function Hero() {
   const { getTexts } = useLanguage();
   const texts = getTexts();
@@ -36,7 +36,7 @@ function Hero() {
             </a>
           </div>
         </div>
-        <img className="heroImg" src={Header}></img>
+        <img className="heroImg" src={photo}></img>
       </div>
     </section>
   );
